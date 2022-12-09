@@ -1,0 +1,142 @@
+@charset "UTF-8";
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav {
+    background-color:#845298;
+    width: 800px;
+    border: 8px #f37038 groove ;
+    margin: auto;
+    padding:35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+a {
+    color:#ffffff;;
+    background-color:#F37038;
+    text-decoration: none;
+    padding: 6px;
+}
+
+nav>a:hover {
+    transition-duration: 1s;
+    background-color: #F37038;
+    color: #D6E681;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-right:10%;
+    margin: 10px;
+
+
+}
+
+main {
+    background-color: #D6E681;
+    border:5px #f37038 groove;
+    width:800px;
+    margin:auto;
+    padding:30px 30px 30px 30px;
+    box-shadow:10px, 2px, 2px #845298;
+    margin-top: 10px;
+}
+
+p {
+    
+    line-height: 1.em;
+    text-align: justify;
+    text-indent: 20px;
+    margin:auto;
+
+
+}
+h2 {
+
+    color: #F37038;
+    background-color:none;
+    line-height: 1.em;
+    text-align: justify;
+    text-indent: 12px;
+    width:50%;
+}
+body{
+    background-color: #D6E681;
+    
+}
+
+picture{
+    margin:auto;
+    position:relative;
+    display: block;
+    padding: 25px;
+    width:35%;
+    border:8px #845298 groove;
+
+    
+
+}
+h1{
+    color: #ffffff;
+    background-color:#845298;
+    line-height: 1.em;
+    text-align: justify;
+    text-indent: 12px;
+}
+li{
+    text-align: justify;
+    text-indent: 12px;
+    margin: auto;
+
+}
+ol{
+    color: #000000;
+    text-align: justify;
+    margin: auto;
+    padding: 18px;
+}
+img{
+    width: 100%;
+}
+iframe{
+    margin: auto;
+    padding:125px;
+
+}
+div{
+    margin: auto;
+
+
+}
+video{
+margin:auto;
+padding: 125px;
+text-align: justify;
+width:70%;
+}
+.error{
+    position: relative;
+    display: block;
+    margin-top: 400px;
+}
+.fild{
+    margin-bottom: 10px;
+    
+
+}
+img{
+    padding: 5px ;
+    
+
+}
+.central{
+    max-width: 35%;
+    position: relative;
+    margin: auto;
+    display: flex;
+
+}
